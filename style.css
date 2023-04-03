@@ -1,0 +1,68 @@
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    background-color: rgb(188, 151, 223);
+    font-family: 'Comic Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+footer, header{
+    padding: 10px;
+}
+
+#tabuleiro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: gray;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+.palavra{
+    display: flex;
+    gap: 10px;
+}
+.letra{
+    background-color: rgb(255, 154, 154);
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-color: rgb(105, 14, 105);
+    border-style: solid;
+    background-color: rgb(148, 195, 255);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(84, 101, 250);
+}
+.letra-correta{
+    background-color: rgb(60, 141, 60);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(10, 116, 10);
+}
+.letra-existe{
+    background-color: rgb(182, 182, 17);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(148, 148, 17);
+}
+#cursor-letra{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
